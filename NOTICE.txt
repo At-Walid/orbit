@@ -1,0 +1,11 @@
+All the rights are retained by the authors. The program is made available to the reviewers of the paper "Fitnesses for Search-based DNN Testing without Ground Truth" to replicate empirical results.
+
+
+For the retraining of DNNs, this package includes the scripts in the folder deeplabv3.
+
+These scripts were developed by GluonCV
+
+The license for the scripts above is provided in gluoncv_license.txt 
+
+
+
