@@ -2,7 +2,7 @@ This repository contains the code and materials for the paper entitled “Surrog
 
 ## Repository contents
 
-This repository contains the files necessary to run the fitness variants. We implemented 8 variants, 4 using pix2pixHD and 4 using CycleGAN. To run each of them we follow the following instructions.
+This repository contains the files necessary to run the surrogate fitness variants. We implemented 8 variants, 4 using pix2pixHD and 4 using CycleGAN. To run each of them we follow the following instructions.
 install the required packages using the following command:
 ```javascript
 pip install ./ORBIT/requirements.txt
@@ -14,14 +14,14 @@ To run one of the variants, here are the steps:
 		For ORBIT variants:
 			 change line 1 in main.py to: import VARIANT_NAME
 			 VARIANT_NAME depends on the ORBIT variant, here is the list of variants and their respective files:
-				ORBIT_flip_pix2pixHD: flip_mars
-				ORBIT_flip_CycleGAN: flip_mars_cyclegan
-				ORBIT_noise_pix2pixHD: noise_mars
-				ORBIT_noise_CycleGAN: noise_mars_cyclegan
-				ORBIT_SA_pix2pixHD: surprise_mars
-				ORBIT_SA_CycleGAN: surprise_mars_cyclegan
-				ORBIT_MCD_pix2pixHD: uncertainty_mars
-				ORBIT_MCD_CycleGAN: uncertainty_mars_cyclegan
+				flip_pix2pixHD: flip_mars
+				flip_CycleGAN: flip_mars_cyclegan
+				noise_pix2pixHD: noise_mars
+				noise_CycleGAN: noise_mars_cyclegan
+				SA_pix2pixHD: surprise_mars
+				SA_CycleGAN: surprise_mars_cyclegan
+				MCD_pix2pixHD: uncertainty_mars
+				MCD_CycleGAN: uncertainty_mars_cyclegan
 		For DESIGNATE:
 			change line 1 in main.py to: import search2_feat_mars
 		For Random:
