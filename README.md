@@ -1,3 +1,5 @@
+This repository contains the code and materials for the paper entitled “Surrogate Fitness Functions for DNN Testing without Ground Truth.”
+
 ## Repository contents
 
 This repository contains the files necessary to run the fitness variants. We implemented 8 variants, 4 using pix2pixHD and 4 using CycleGAN. To run each of them we follow the following instructions.
