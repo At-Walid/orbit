@@ -5,7 +5,7 @@ This repository contains the code and materials for the paper entitled “Surrog
 This repository contains the files necessary to run the surrogate fitness variants. We implemented 8 variants, 4 using pix2pixHD and 4 using CycleGAN. To run each of them we follow the following instructions.
 install the required packages using the following command:
 ```javascript
-pip install ./ORBIT/requirements.txt
+pip install ./requirements.txt
 ```
 
 
